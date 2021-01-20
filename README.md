@@ -24,7 +24,7 @@ then go to locahost:<PORT>/ to access the server
 
 `POST locahost:<PORT>/auth` - to get a web token by providing a `username` and `password` in the body. both required
 
-`POST locahost:<PORT>/status` - to get status of the api; provide token in the header - `Authorization: token`
+`POST locahost:<PORT>/status` - to get status of the api; provide token in the header - `Authorization: <TOKEN>`
 
 `POST locahost:<PORT>/symbol `- get data on akan symbols
 provide token in the header - `Authorization: <TOKEN>`
