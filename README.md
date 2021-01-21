@@ -14,9 +14,11 @@ the third route, /symbol, takes the json `{"name":"<name>", "meaning":"<meaning>
 
 ## Getting Started
 create and `.env` from using the `.env.template` file 
-and set your `PORT` an dand `JWT_SECRET` value 
+and set your `PORT` an dand `JWT_SECRET` value
 
-run the command npm start in the root directory of the project to start the server
+run the command `npm install` to install all dependencies
+
+run the command `npm start` in the root directory of the project to start the server
 
 then go to locahost:<PORT>/ to access the server
 
